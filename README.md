@@ -10,14 +10,14 @@ print "Akshay Bengani"
 ```
 This is allowed in Python 2 but not in Python 3 
 ```
-print("Akshay Bengani");
+print("Akshay Bengani")
 ```
 This is important we have to use () while in the print function.
 
 ## Input in Python
 You can take input in python by using the input() function
 ```
-a = input("Enter your name here ");
+a = input("Enter your name here ")
 ```
 This will take input and store it in a variable
 
@@ -25,7 +25,7 @@ This will take input and store it in a variable
 Expressions are made up of variables, constants, operators, functions, Reserved Words, Comments, and a lot more cool stuff.
 
 ## Comments in Python
-To Comment in Python, we use \# to comment out something.
+To Comment in Python, we use # to comment out something.
 
 ## Type conversion 
 In Python when we take the input we use input() function this function only takes string type so we need to typecast when we needed an Integer operation or any other type operation other than String.
@@ -55,9 +55,9 @@ if z>5:
 ```
 ## Comparision Operators
 
-* **Boolean Expressions** ask a question and produce a Yes or No result which we use to control program flow.<br>
+* **Boolean Expressions** ask a question and produce a True been or False result which we use to control program flow.<br>
 
-*  **Boolean Expressions** using **Comparison Operators** evaluate to True/False or Yes/No
+*  **Boolean Expressions** using **Comparison Operators** evaluate to True/False
 
 * Comparison operators at variables but do not change the variables.
 
@@ -75,7 +75,7 @@ if z>5:
 ## Indentation
 In python indentation is very important, it is not just for the better understandable of code but also for representing the block of code.
 <br>
-You can use text editors like VSCode, Atom, Sublime Text. These text editors come with auto arrangement and can handle the automatic indentation.
+You can use text editors like PyCharm, VSCode, Atom, Sublime Text. These text editors come with auto arrangement and can handle the automatic indentation.
 
 ## Conditional Statements
 Similar like other languages we have if else and elseif(elif) in python
@@ -83,7 +83,7 @@ Similar like other languages we have if else and elseif(elif) in python
 x=0
 if x<2:
     print("small")
-elif x<10:
+elif x<10 and x>=2:
     print("Medium")
 else :
     print("LARGE")
